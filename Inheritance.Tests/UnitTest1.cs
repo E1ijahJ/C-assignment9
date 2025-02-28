@@ -12,4 +12,19 @@ public class UnitTest1
         }
 
     }
+
+    [Fact]
+    public void TestingEnum()
+    {
+        Except except = new Except();
+        IEnum ienum = new IEnum();
+        try{
+            foreach(var amount in ienum){
+                Console.WriteLine(amount);
+            }
+        }catch(Except ex){
+            Console.WriteLine($"Exception found: {ex.Message}");
+        }
+
+    }
 }
