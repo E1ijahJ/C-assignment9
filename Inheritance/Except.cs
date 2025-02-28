@@ -1,5 +1,7 @@
 ﻿namespace Inheritance;
-
+/// <summary>
+/// This is the cusotm exception class that we use for ienum funcuton and we call it in that functuion.
+/// </summary>
 public class Except: Exception
 {
 public Except() : base("Invalid operationa has been dectected"){}

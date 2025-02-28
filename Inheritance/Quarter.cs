@@ -1,6 +1,8 @@
 namespace Inheritance;
 
-
+/// <summary>
+/// This is the quarter ckass that inheirts form the quarter class and gets the quarter amouns and comparing them to the other quarter amounts
+/// </summary>
 public class Quarter : IComparable<Quarter>
 {
     private double Amount { get; }
